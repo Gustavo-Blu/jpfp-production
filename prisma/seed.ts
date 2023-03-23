@@ -31,7 +31,7 @@ async function main() {
       {
         name: "Fordham University",
         imageUrl:
-          "https://www.usnews.com/dims4/USNEWS/8205328/17177859217/resize/800x540%3E/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2F7d%2F2c660496b823f534b6a70c2e3eb2cc%2Fcollege-photo_12860.jpg",
+          "https://res-5.cloudinary.com/abroad101/image/upload/c_limit,f_auto,h_800,w_800/v1371587501/Review_20888_Photo__1f7f.jpg",
         address: "The Bronx, NY 10458",
         description:
           "Fordham University is a private Jesuit research university in New York City. Established in 1841 and named after the Fordham neighborhood of the Bronx in which its original campus is located",

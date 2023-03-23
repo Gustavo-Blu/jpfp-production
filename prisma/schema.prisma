@@ -22,14 +22,14 @@ model Campuses {
 }
 
 model Students {
-    id        Int      @id @default(autoincrement())
-    createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
+    id        Int       @id @default(autoincrement())
+    createdAt DateTime  @default(now())
+    updatedAt DateTime  @updatedAt
     firstName String
     lastName  String
     email     String
-    imageUrl  String   @default("https://riverlegacy.org/wp-content/uploads/2021/07/blank-profile-photo.jpeg")
+    imageUrl  String    @default("https://riverlegacy.org/wp-content/uploads/2021/07/blank-profile-photo.jpeg")
     gpa       Float
-    campus    Campuses @relation(fields: [campusId], references: [id])
-    campusId  Int
+    campus    Campuses? @relation(fields: [campusId], references: [id])
+    campusId  Int?
 }
